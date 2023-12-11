@@ -16,6 +16,6 @@ Admissible-Control-Reconstruction
    ├──eval_u.m                          ## Find u corresponding with its state (modify from helperOC)
    ├──StateWAdms.m                      ## Updating states with ACS
    └──jaccard.m                         ## Generate Jaccard Index, False Include and False Exclude
-   ├──visSetIm_trans.m                     ## Visualization code for set (modify from helperOC)
-   └──visfuncIm_chong.m                    ## Visualization code for value function (modify from helperOC)
+   ├──visSetIm_trans.m                  ## Visualization code for set (modify from helperOC)
+   └──visfuncIm_chong.m                 ## Visualization code for value function (modify from helperOC)
 ```
