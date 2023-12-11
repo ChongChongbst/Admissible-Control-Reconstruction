@@ -14,5 +14,9 @@ Admissible-Control-Reconstruction
    │
    ├──HJIPDE_admis_solve.m              ## HJIPDE solver implemented with ACS computation
    ├──StateWAdms.m                      ## 
-   ├──combine.m 
+   ├──combine.m
+   ├──eval_u.m
+   ├──jaccard.m
+   ├──visSetIm_trans.m
+   └──visfuncIm_chong.m 
 ```
