@@ -10,13 +10,14 @@ Admissible-Control-Reconstruction
 └──scripts
    ├──new_compare.m                     ## main script
    │  ├──decomposition.m                ## script to compute the result based on decomposition: subBRS and subsystems' ACSs
+   │  │  └──HJIPDE_admis_solve.m        ## HJIPDE solver implemented with ACS computation
    │  └──fullsysDubins.m                ## script to generate direct computation from full-dimensional system for comparison
    │
    ├──HJIPDE_admis_solve.m              ## HJIPDE solver implemented with ACS computation
    ├──StateWAdms.m                      ## 
    ├──combine.m
    ├──eval_u.m
-   ├──jaccard.m
-   ├──visSetIm_trans.m
-   └──visfuncIm_chong.m 
+   └──jaccard.m
+├──visSetIm_trans.m
+└──visfuncIm_chong.m 
 ```
