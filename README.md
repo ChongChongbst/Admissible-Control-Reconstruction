@@ -1,5 +1,5 @@
-## Admissible-Control-Reconstruction
-# File Structure
+# Admissible-Control-Reconstruction
+## File Structure
 ```bash
 Admissible-Control-Reconstruction
 │
