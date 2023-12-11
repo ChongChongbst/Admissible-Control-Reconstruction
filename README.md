@@ -1,7 +1,7 @@
 # Admissible-Control-Reconstruction
 ## Publication
 ## Abstract
-## dependencies
+## Dependencies
 (1) HelperOC: https://github.com/HJReachability/helperOC/ \
 (2) ToolboxLS: https://www.cs.ubc.ca/~mitchell/ToolboxLS/
 ## File Structure
