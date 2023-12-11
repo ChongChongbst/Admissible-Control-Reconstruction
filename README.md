@@ -8,16 +8,14 @@ Admissible-Control-Reconstruction
 │  ├──@sys1                             ## Subsystem 1 using decomposition method: 2D
 │  └──@sys2                             ## Subsystem 2 using decomposition method: 2D
 └──scripts
-   ├──new_compare.m                     ## main script
-   │  ├──decomposition.m                ## script to compute the result based on decomposition: subBRS and subsystems' ACSs
+   ├──new_compare.m                     ## Main script
+   │  ├──decomposition.m                ## Script to compute the result based on decomposition: subBRS and subsystems' ACSs
    │  │  └──HJIPDE_admis_solve.m        ## HJIPDE solver implemented with ACS computation
-   │  └──fullsysDubins.m                ## script to generate direct computation from full-dimensional system for comparison
-   │
-   ├──HJIPDE_admis_solve.m              ## HJIPDE solver implemented with ACS computation
-   ├──StateWAdms.m                      ## 
-   ├──combine.m
-   ├──eval_u.m
-   └──jaccard.m
-├──visSetIm_trans.m
-└──visfuncIm_chong.m 
+   │  └──fullsysDubins.m                ## Script to generate direct computation from full-dimensional system for comparison
+   ├──combine.m                         ## Combine subsystems' ACS into full-dimensional ACS
+   ├──eval_u.m                          ## Find u corresponding with its state (modify from helperOC)
+   ├──StateWAdms.m                      ## Updating states with ACS
+   └──jaccard.m                         ## Generate Jaccard Index, False Include and False Exclude
+   ├──visSetIm_trans.m                     ## Visualization code for set (modify from helperOC)
+   └──visfuncIm_chong.m                    ## Visualization code for value function (modify from helperOC)
 ```
