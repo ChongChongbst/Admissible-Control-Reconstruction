@@ -25,4 +25,4 @@ Admissible-Control-Reconstruction
       └──visfuncIm_chong.m              ## Visualization code for value function (modify from helperOC)
 ```
 ## Contact
-chong_he@sfu.ca
+Chong: chong_he@sfu.ca
