@@ -1,4 +1,4 @@
-8# Admissible-Control-Reconstruction
+# Admissible-Control-Reconstruction
 ## Publication
  Chong He*, Zheng Gong, Mo Chen, Sylvia Herbert, "Efficient and Guaranteed Hamilton-Jacobi Reachability via Self-Contained Subsystem Decomposition and Admissible Control Sets", in Control Systems Letters, IEEE, 2024 \
  Link: https://ieeexplore.ieee.org/document/10365682
